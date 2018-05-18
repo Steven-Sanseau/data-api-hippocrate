@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "step",
+  "info": {
+    "name": "step",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "principle": {
+      "collection": "principle",
+      "dominant": true,
+      "via": "step"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

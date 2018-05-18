@@ -1,0 +1,55 @@
+{
+  "supporters": {
+    "attributes": {
+      "first_name": {
+        "appearance": ""
+      },
+      "last_name": {
+        "appearance": ""
+      },
+      "email": {
+        "appearance": ""
+      },
+      "twitter_handle": {
+        "appearance": ""
+      },
+      "linkedin_handle": {
+        "appearance": ""
+      }
+    }
+  },
+  "step": {
+    "attributes": {
+      "title": {
+        "appearance": "WYSIWYG"
+      },
+      "order": {
+        "appearance": ""
+      },
+      "id": {
+        "appearance": ""
+      }
+    }
+  },
+  "principle": {
+    "attributes": {
+      "title": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  },
+  "details": {
+    "attributes": {
+      "title": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  },
+  "detail": {
+    "attributes": {
+      "title": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  }
+}

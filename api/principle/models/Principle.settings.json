@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "principle",
+  "info": {
+    "name": "principle",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "step": {
+      "model": "step",
+      "via": "principle"
+    },
+    "detail": {
+      "collection": "detail",
+      "via": "principle",
+      "dominant": true
+    }
+  }
+}

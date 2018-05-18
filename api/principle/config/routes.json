@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/principle",
+      "handler": "Principle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/principle/:_id",
+      "handler": "Principle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/principle",
+      "handler": "Principle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/principle/:_id",
+      "handler": "Principle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/principle/:_id",
+      "handler": "Principle.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

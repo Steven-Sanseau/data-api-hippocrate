@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "details",
+  "info": {
+    "name": "detail",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "principle": {
+      "model": "principle",
+      "via": "detail"
+    }
+  }
+}

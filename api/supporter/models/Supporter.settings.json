@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "supporters",
+  "info": {
+    "name": "supporter",
+    "description": "List of all supporters"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "default": "doe",
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "unique": true,
+      "type": "email",
+      "required": true
+    },
+    "twitter_handle": {
+      "type": "string"
+    },
+    "linkedin_handle": {
+      "type": "string"
+    }
+  }
+}
