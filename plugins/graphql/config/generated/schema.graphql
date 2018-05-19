@@ -11,7 +11,15 @@ The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://
 """
 scalar JSON
 
-union Morph = Detail | Principle | Step | Supporter | UploadFile | UsersPermissionsPermission | UsersPermissionsRole | UsersPermissionsUser
+union Morph =
+    Detail
+  | Principle
+  | Step
+  | Supporter
+  | UploadFile
+  | UsersPermissionsPermission
+  | UsersPermissionsRole
+  | UsersPermissionsUser
 
 type Principle {
   _id: String
@@ -37,9 +45,19 @@ type Query {
   """
   Retrieve all the existing roles. You can't apply filters on this query.
   """
-  roles(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsRole]
+  roles(
+    sort: String
+    limit: Int
+    start: Int
+    where: JSON
+  ): [UsersPermissionsRole]
   user(id: String!): UsersPermissionsUser
-  users(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsUser]
+  users(
+    sort: String
+    limit: Int
+    start: Int
+    where: JSON
+  ): [UsersPermissionsUser]
 }
 
 type Step {
@@ -51,7 +69,9 @@ type Step {
   principle(sort: String, limit: Int, start: Int, where: JSON): [Principle]
 }
 
-"""List of all supporters"""
+"""
+List of all supporters
+"""
 type Supporter {
   _id: String
   created_at: String
@@ -92,8 +112,18 @@ type UsersPermissionsRole {
   name: String
   description: String
   type: String
-  users(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsUser]
-  permissions(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsPermission]
+  users(
+    sort: String
+    limit: Int
+    start: Int
+    where: JSON
+  ): [UsersPermissionsUser]
+  permissions(
+    sort: String
+    limit: Int
+    start: Int
+    where: JSON
+  ): [UsersPermissionsPermission]
 }
 
 type UsersPermissionsUser {

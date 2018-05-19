@@ -1,6 +1,6 @@
 {
-  "host": "api.hippocrate.tech",
-  "port": 1337,
+  "host": "localhost",
+  "port": "${process.env.PORT || 1337}",
   "autoReload": {
     "enabled": false
   },
