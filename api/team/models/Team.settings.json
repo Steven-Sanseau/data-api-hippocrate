@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "team",
+    "description": "Team's project"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

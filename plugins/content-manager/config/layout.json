@@ -51,5 +51,18 @@
         "appearance": "WYSIWYG"
       }
     }
+  },
+  "team": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "avatar": {
+        "appearance": ""
+      },
+      "position": {
+        "appearance": ""
+      }
+    }
   }
 }

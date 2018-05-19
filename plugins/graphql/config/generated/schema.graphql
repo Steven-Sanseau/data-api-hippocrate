@@ -16,6 +16,7 @@ union Morph =
   | Principle
   | Step
   | Supporter
+  | Team
   | UploadFile
   | UsersPermissionsPermission
   | UsersPermissionsRole
@@ -39,6 +40,8 @@ type Query {
   steps(sort: String, limit: Int, start: Int, where: JSON): [Step]
   supporter(id: String!): Supporter
   supporters(sort: String, limit: Int, start: Int, where: JSON): [Supporter]
+  team(id: String!): Team
+  teams(sort: String, limit: Int, start: Int, where: JSON): [Team]
   files(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
   role(id: String!): UsersPermissionsRole
 
@@ -81,6 +84,18 @@ type Supporter {
   email: String
   twitter_handle: String
   linkedin_handle: String
+}
+
+"""
+Team's project
+"""
+type Team {
+  _id: String
+  created_at: String
+  updated_at: String
+  name: String
+  avatar: String
+  position: String
 }
 
 type UploadFile {
