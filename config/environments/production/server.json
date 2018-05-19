@@ -1,6 +1,6 @@
 {
   "host": "api.hippocrate.tech",
-  "port": 80,
+  "port": 1337,
   "autoReload": {
     "enabled": false
   },
