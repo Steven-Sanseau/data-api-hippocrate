@@ -1,12 +1,13 @@
 {
   "csrf": {
-    "enabled": true,
+    "enabled": false,
     "key": "_csrf",
     "secret": "_csrfSecret"
   },
   "csp": {
     "enabled": true,
-    "policy": [{
+    "policy": [
+      {
         "img-src": "'self' http:"
       },
       "block-all-mixed-content"
@@ -57,5 +58,8 @@
     "enabled": false,
     "whiteList": [],
     "blackList": []
+  },
+  "xssProtection": {
+    "enabled": false
   }
 }
