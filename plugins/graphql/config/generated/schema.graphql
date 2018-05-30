@@ -4,6 +4,7 @@ type Detail {
   updated_at: String
   title: String
   principle: Principle
+  text: String
 }
 
 """

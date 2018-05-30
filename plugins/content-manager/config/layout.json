@@ -49,6 +49,9 @@
     "attributes": {
       "title": {
         "appearance": "WYSIWYG"
+      },
+      "text": {
+        "appearance": "WYSIWYG"
       }
     }
   },

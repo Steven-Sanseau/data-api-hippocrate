@@ -3,8 +3,7 @@
   "collectionName": "details",
   "info": {
     "name": "detail",
-    "description": "",
-    "mainField": "title"
+    "description": ""
   },
   "options": {
     "timestamps": true
@@ -17,6 +16,10 @@
     "principle": {
       "model": "principle",
       "via": "detail"
+    },
+    "text": {
+      "type": "text",
+      "required": true
     }
   }
 }

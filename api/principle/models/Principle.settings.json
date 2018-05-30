@@ -20,8 +20,8 @@
     },
     "detail": {
       "collection": "detail",
-      "via": "principle",
-      "dominant": true
+      "dominant": true,
+      "via": "principle"
     }
   }
 }
