@@ -3,7 +3,8 @@
   "collectionName": "details",
   "info": {
     "name": "detail",
-    "description": ""
+    "description": "",
+    "mainField": "title"
   },
   "options": {
     "timestamps": true

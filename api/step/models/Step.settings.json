@@ -3,7 +3,8 @@
   "collectionName": "step",
   "info": {
     "name": "step",
-    "description": ""
+    "description": "",
+    "mainField": "title"
   },
   "options": {
     "timestamps": true

@@ -3,7 +3,8 @@
   "collectionName": "principle",
   "info": {
     "name": "principle",
-    "description": ""
+    "description": "",
+    "mainField": "title"
   },
   "options": {
     "timestamps": true
