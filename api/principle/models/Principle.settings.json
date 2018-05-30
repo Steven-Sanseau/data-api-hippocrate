@@ -20,8 +20,11 @@
     },
     "detail": {
       "collection": "detail",
-      "dominant": true,
-      "via": "principle"
+      "via": "principle",
+      "dominant": true
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

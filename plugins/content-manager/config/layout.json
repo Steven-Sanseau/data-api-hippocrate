@@ -35,6 +35,9 @@
     "attributes": {
       "title": {
         "appearance": "WYSIWYG"
+      },
+      "order": {
+        "appearance": ""
       }
     }
   },
@@ -52,6 +55,9 @@
       },
       "text": {
         "appearance": "WYSIWYG"
+      },
+      "order": {
+        "appearance": ""
       }
     }
   },

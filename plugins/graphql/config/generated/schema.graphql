@@ -5,6 +5,7 @@ type Detail {
   title: String
   principle: Principle
   text: String
+  order: Int
 }
 
 """
@@ -20,6 +21,7 @@ type Principle {
   updated_at: String
   title: String
   step: Step
+  order: Int
   detail(sort: String, limit: Int, start: Int, where: JSON): [Detail]
 }
 
