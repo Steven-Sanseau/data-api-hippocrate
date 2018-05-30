@@ -28,6 +28,9 @@
     },
     "linkedin_handle": {
       "type": "string"
+    },
+    "github_handle": {
+      "type": "string"
     }
   }
 }
