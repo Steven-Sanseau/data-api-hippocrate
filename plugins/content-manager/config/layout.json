@@ -23,14 +23,14 @@
   "step": {
     "attributes": {
       "title": {
-        "appearance": ""
+        "appearance": "WYSIWYG"
       }
     }
   },
   "principle": {
     "attributes": {
       "title": {
-        "appearance": ""
+        "appearance": "WYSIWYG"
       }
     }
   },
@@ -44,7 +44,10 @@
   "detail": {
     "attributes": {
       "title": {
-        "appearance": ""
+        "appearance": "WYSIWYG"
+      },
+      "text": {
+        "appearance": "WYSIWYG"
       }
     }
   }
