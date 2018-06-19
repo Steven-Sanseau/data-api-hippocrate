@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.0.0-alpha.12.5.tgz",
   "_shasum": "83110d2f10d116e05a18a809170bb5afc0604feb",
   "_spec": "strapi-plugin-upload@alpha",
-  "_where": "/Users/stevensanseau/Workspace/myNewProject",
+  "_where": "/Users/stevensanseau/Workspace/dataforgood/api/test",
   "author": {
     "name": "A Strapi developer"
   },

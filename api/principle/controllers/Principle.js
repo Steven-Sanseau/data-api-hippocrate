@@ -33,6 +33,16 @@ module.exports = {
   },
 
   /**
+   * Count principle records.
+   *
+   * @return {Number}
+   */
+
+  count: async (ctx) => {
+    return strapi.services.principle.count(ctx.query);
+  },
+
+  /**
    * Create a/an principle record.
    *
    * @return {Object}

@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-alpha.12.5.tgz",
   "_shasum": "978f638224516e6fa718a81dcec1efcf9a56894d",
   "_spec": "strapi-plugin-email@alpha",
-  "_where": "/Users/stevensanseau/Workspace/myNewProject",
+  "_where": "/Users/stevensanseau/Workspace/dataforgood/api/test",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",

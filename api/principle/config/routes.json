@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/principle/count",
+      "handler": "Principle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/principle/:_id",
       "handler": "Principle.findOne",
       "config": {

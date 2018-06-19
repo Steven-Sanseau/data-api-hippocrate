@@ -33,6 +33,16 @@ module.exports = {
   },
 
   /**
+   * Count supporter records.
+   *
+   * @return {Number}
+   */
+
+  count: async (ctx) => {
+    return strapi.services.supporter.count(ctx.query);
+  },
+
+  /**
    * Create a/an supporter record.
    *
    * @return {Object}

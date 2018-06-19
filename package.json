@@ -1,8 +1,8 @@
 {
-  "name": "api",
+  "name": "test",
   "private": true,
   "version": "0.1.0",
-  "description": "Api Oath Hippocrate for data scientist.",
+  "description": "A Strapi application.",
   "main": "./server.js",
   "scripts": {
     "setup": "cd admin && npm run setup",
@@ -12,17 +12,16 @@
     "postinstall": "node node_modules/strapi/lib/utils/post-install.js"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-react": "^7.9.1"
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.8.0"
   },
   "dependencies": {
     "lodash": "4.x.x",
-    "npm-check-updates": "^2.14.2",
-    "strapi": "^3.0.0-alpha.12.5",
-    "strapi-mongoose": "^3.0.0-alpha.12.5"
+    "strapi": "3.0.0-alpha.12.5",
+    "strapi-mongoose": "3.0.0-alpha.12.5"
   },
   "author": {
     "name": "stevensanseau",
@@ -37,11 +36,11 @@
     }
   ],
   "strapi": {
-    "uuid": "801e711b-73bb-4cea-b6cf-2ff829ef8c3f"
+    "uuid": "970090f7-3be2-4de6-89ab-95b7ae8f8689"
   },
   "engines": {
-    "node": ">= 7.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 9.0.0",
+    "npm": ">= 5.0.0"
   },
   "license": "MIT"
 }

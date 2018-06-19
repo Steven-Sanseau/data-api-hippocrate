@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/step/count",
+      "handler": "Step.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/step/:_id",
       "handler": "Step.findOne",
       "config": {

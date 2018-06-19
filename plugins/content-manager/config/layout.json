@@ -1,1 +1,51 @@
-{}
+{
+  "supporter": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "test": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "team": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "step": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "principle": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "details": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "detail": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  }
+}

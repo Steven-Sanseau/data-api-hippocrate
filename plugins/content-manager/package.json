@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.0-alpha.12.5.tgz",
   "_shasum": "17630e9f48a48dc36f2848e55083de73d2c9e3e8",
   "_spec": "strapi-plugin-content-manager@alpha",
-  "_where": "/Users/stevensanseau/Workspace/myNewProject",
+  "_where": "/Users/stevensanseau/Workspace/dataforgood/api/test",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",

@@ -33,6 +33,16 @@ module.exports = {
   },
 
   /**
+   * Count detail records.
+   *
+   * @return {Number}
+   */
+
+  count: async (ctx) => {
+    return strapi.services.detail.count(ctx.query);
+  },
+
+  /**
    * Create a/an detail record.
    *
    * @return {Object}

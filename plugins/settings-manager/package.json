@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-alpha.12.5.tgz",
   "_shasum": "80849106ff62894858619e7e44564aa36232d2e5",
   "_spec": "strapi-plugin-settings-manager@alpha",
-  "_where": "/Users/stevensanseau/Workspace/myNewProject",
+  "_where": "/Users/stevensanseau/Workspace/dataforgood/api/test",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",

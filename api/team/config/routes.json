@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/team/count",
+      "handler": "Team.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/team/:_id",
       "handler": "Team.findOne",
       "config": {

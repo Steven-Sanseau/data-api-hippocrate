@@ -16,7 +16,6 @@
     },
     "principle": {
       "collection": "principle",
-      "dominant": true,
       "via": "step"
     },
     "order": {

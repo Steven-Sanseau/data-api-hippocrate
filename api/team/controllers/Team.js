@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /**
  * Team.js controller
@@ -7,13 +7,14 @@
  */
 
 module.exports = {
+
   /**
    * Retrieve team records.
    *
    * @return {Object|Array}
    */
 
-  find: async ctx => {
+  find: async (ctx) => {
     return strapi.services.team.fetchAll(ctx.query);
   },
 
@@ -23,7 +24,7 @@ module.exports = {
    * @return {Object}
    */
 
-  findOne: async ctx => {
+  findOne: async (ctx) => {
     if (!ctx.params._id.match(/^[0-9a-fA-F]{24}$/)) {
       return ctx.notFound();
     }
@@ -32,12 +33,22 @@ module.exports = {
   },
 
   /**
+   * Count team records.
+   *
+   * @return {Number}
+   */
+
+  count: async (ctx) => {
+    return strapi.services.team.count(ctx.query);
+  },
+
+  /**
    * Create a/an team record.
    *
    * @return {Object}
    */
 
-  create: async ctx => {
+  create: async (ctx) => {
     return strapi.services.team.add(ctx.request.body);
   },
 
@@ -48,7 +59,7 @@ module.exports = {
    */
 
   update: async (ctx, next) => {
-    return strapi.services.team.edit(ctx.params, ctx.request.body);
+    return strapi.services.team.edit(ctx.params, ctx.request.body) ;
   },
 
   /**

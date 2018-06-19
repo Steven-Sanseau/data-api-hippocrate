@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/supporter/count",
+      "handler": "Supporter.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/supporter/:_id",
       "handler": "Supporter.findOne",
       "config": {

@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-graphql/-/strapi-plugin-graphql-3.0.0-alpha.12.5.tgz",
   "_shasum": "24bb97a999856167baa75d59a2aad7f329425771",
   "_spec": "strapi-plugin-graphql@alpha",
-  "_where": "/Users/stevensanseau/Workspace/dataforgood/api",
+  "_where": "/Users/stevensanseau/Workspace/dataforgood/api/test",
   "author": {
     "name": "A Strapi developer"
   },
