@@ -1,8 +1,8 @@
 {
   "_from": "strapi-plugin-graphql@alpha",
-  "_id": "strapi-plugin-graphql@3.0.0-alpha.12.1.3",
+  "_id": "strapi-plugin-graphql@3.0.0-alpha.12.5",
   "_inBundle": false,
-  "_integrity": "sha512-IJKghuqvP4fDuQ3v/hdf3wRCAuOI6JERMyQslIS2qjOtuAkj7WdzM9ZBDvxOM3lFs9+gUMk4wSRXv6Hc8JA/Yw==",
+  "_integrity": "sha512-6Duiia0ChX9aRGWlKyQgIjWlIj+c/jTthcG7rNJcPe8JzColu59lbsOmw2aMeNhaK7RXuqaDNwcn+lNz8oOIAA==",
   "_location": "/strapi-plugin-graphql",
   "_phantomChildren": {},
   "_requested": {
@@ -18,8 +18,8 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-graphql/-/strapi-plugin-graphql-3.0.0-alpha.12.1.3.tgz",
-  "_shasum": "590b295cd880209f5c44757ced9fe1a747e7efe6",
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-graphql/-/strapi-plugin-graphql-3.0.0-alpha.12.5.tgz",
+  "_shasum": "24bb97a999856167baa75d59a2aad7f329425771",
   "_spec": "strapi-plugin-graphql@alpha",
   "_where": "/Users/stevensanseau/Workspace/dataforgood/api",
   "author": {
@@ -30,10 +30,12 @@
     "apollo-server-koa": "^1.3.3",
     "glob": "^7.1.2",
     "graphql": "^0.13.2",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-playground-middleware-koa": "^1.6.1",
     "graphql-tools": "^2.23.1",
     "graphql-type-json": "^0.2.0",
     "pluralize": "^7.0.0",
-    "strapi-utils": "3.0.0-alpha.12.1.3"
+    "strapi-utils": "3.0.0-alpha.12.5"
   },
   "deprecated": false,
   "description": "This is the description of the plugin.",
@@ -55,17 +57,16 @@
     "build:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf admin/build",
     "build:dev": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
     "generate": "node ./node_modules/plop/plop.js --plopfile node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
-    "lint": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/eslint --ignore-path .gitignore --ignore-pattern '/admin/build/' --config ./node_modules/strapi-helper-plugin/lib/internals/eslint/.eslintrc.json admin",
     "preanalyze": "npm run analyze:clean",
     "prebuild": "npm run build:clean && npm run test",
     "prettier": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
     "start": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/lib/server",
-    "test": "npm run lint"
+    "test": "echo \"Error: no test specified\""
   },
   "strapi": {
     "name": "graphql",
     "icon": "plug",
     "description": "Description of graphql plugin."
   },
-  "version": "3.0.0-alpha.12.1.3"
+  "version": "3.0.0-alpha.12.5"
 }

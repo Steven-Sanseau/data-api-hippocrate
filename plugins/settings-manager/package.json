@@ -1,8 +1,8 @@
 {
   "_from": "strapi-plugin-settings-manager@alpha",
-  "_id": "strapi-plugin-settings-manager@3.0.0-alpha.12.1.3",
+  "_id": "strapi-plugin-settings-manager@3.0.0-alpha.12.5",
   "_inBundle": false,
-  "_integrity": "sha512-AOzEmj/sZ60Nr3ReEHFcYGzkAeI4MaW5AEC8nEQDWr2q6ccBd+IlbOlnZzcHV1Q1SX3dG14icOHek4lg3+0b5w==",
+  "_integrity": "sha512-yW4a15Rx6Vx/jYTP4UbZt9oYHapOPkeYVMYAt+2Vn/5U1CDETdjuEQOHgLmtlcgT8qx7JQx1ec/iq+X9Q9O7KQ==",
   "_location": "/strapi-plugin-settings-manager",
   "_phantomChildren": {},
   "_requested": {
@@ -18,10 +18,10 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-alpha.12.1.3.tgz",
-  "_shasum": "9b923f67ecb401039b2ba07c5b7a2b8c297dc778",
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-alpha.12.5.tgz",
+  "_shasum": "80849106ff62894858619e7e44564aa36232d2e5",
   "_spec": "strapi-plugin-settings-manager@alpha",
-  "_where": "/Users/stevensanseau/Workspace/dataforgood/api",
+  "_where": "/Users/stevensanseau/Workspace/myNewProject",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "flag-icon-css": "^2.8.0",
     "react-select": "^1.0.0-rc.5",
-    "strapi-helper-plugin": "3.0.0-alpha.12.1.3"
+    "strapi-helper-plugin": "3.0.0-alpha.12.5"
   },
   "engines": {
     "node": ">= 9.0.0",
@@ -66,7 +66,7 @@
     "lint": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/eslint --ignore-path .gitignore --ignore-pattern '/admin/build/' --config ./node_modules/strapi-helper-plugin/lib/internals/eslint/.eslintrc.json admin",
     "preanalyze": "npm run analyze:clean",
     "prebuild": "npm run build:clean",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "IS_MONOREPO=true npm run build",
     "prettier": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
     "start": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/lib/server",
     "test": "npm run lint"
@@ -76,5 +76,5 @@
     "icon": "wrench",
     "description": "settings-manager.plugin.description"
   },
-  "version": "3.0.0-alpha.12.1.3"
+  "version": "3.0.0-alpha.12.5"
 }
