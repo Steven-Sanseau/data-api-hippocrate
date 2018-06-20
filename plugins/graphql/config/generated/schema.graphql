@@ -13,7 +13,16 @@ The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://
 """
 scalar JSON
 
-union Morph = Detail | Principle | Step | Supporter | Team | UploadFile | UsersPermissionsPermission | UsersPermissionsRole | UsersPermissionsUser
+union Morph = Detail | Page | Principle | Step | Supporter | Team | UploadFile | UsersPermissionsPermission | UsersPermissionsRole | UsersPermissionsUser
+
+type Page {
+  _id: ID!
+  createdAt: String!
+  updatedAt: String!
+  title: String!
+  content: String
+  slug: String!
+}
 
 type Principle {
   _id: ID!
@@ -28,6 +37,8 @@ type Principle {
 type Query {
   detail(id: ID!): Detail
   details(sort: String, limit: Int, start: Int, where: JSON): [Detail]
+  page(id: ID!): Page
+  pages(sort: String, limit: Int, start: Int, where: JSON): [Page]
   principle(id: ID!): Principle
   principles(sort: String, limit: Int, start: Int, where: JSON): [Principle]
   step(id: ID!): Step

@@ -50,5 +50,18 @@
         "appearance": "WYSIWYG"
       }
     }
+  },
+  "page": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": "WYSIWYG"
+      },
+      "slug": {
+        "appearance": ""
+      }
+    }
   }
 }
