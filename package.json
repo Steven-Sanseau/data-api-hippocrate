@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "lodash": "4.x.x",
+    "request": "^2.87.0",
     "strapi": "3.0.0-alpha.12.5",
     "strapi-mongoose": "3.0.0-alpha.12.5",
     "strapi-upload-aws-s3": "^3.0.0-alpha.12.5"

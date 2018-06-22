@@ -4,6 +4,8 @@
  * Lifecycle callbacks for the `Supporter` model.
  */
 
+var request = require('request');
+
 module.exports = {
   // Before saving a value.
   // Fired before an `insert` or `update` query.
@@ -34,7 +36,18 @@ module.exports = {
 
   // After creating a value.
   // Fired after an `insert` query.
-  // afterCreate: async (model, result) => {},
+  afterCreate: async (model, result) => {
+    console.log(model, result);
+    request.post(
+      'https://hooks.zapier.com/hooks/catch/3451313/whvcx5/',
+      { json: { supporter: result } },
+      function(error, response, body) {
+        if (!error && response.statusCode == 200) {
+          console.log(body);
+        }
+      }
+    );
+  }
 
   // Before updating a value.
   // Fired before an `update` query.
