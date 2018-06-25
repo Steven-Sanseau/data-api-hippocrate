@@ -21,7 +21,8 @@
     "email": {
       "unique": true,
       "type": "email",
-      "required": true
+      "required": true,
+      "private": true
     },
     "twitter_handle": {
       "type": "string"
