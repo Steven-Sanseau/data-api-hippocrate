@@ -1,8 +1,8 @@
 {
   "_from": "strapi-plugin-users-permissions@alpha",
-  "_id": "strapi-plugin-users-permissions@3.0.0-alpha.12.5",
+  "_id": "strapi-plugin-users-permissions@3.0.0-alpha.13.0.1",
   "_inBundle": false,
-  "_integrity": "sha512-ZSS7vf/BXgDHXTpLUjkb8aLCALKRvi5DvjrMhXuiNfTlEivpcwYrHlCZn/fJRUllt0QsXFDhAKkXTJZCawOQdA==",
+  "_integrity": "sha512-i/7fvdvhzTK+4x0zOV3cS5Xw49zV0LXpSxtB5e29NrnCGAr2NYn2ifBowNzKgolG35NkA5dABDkeiybLCOr9qQ==",
   "_location": "/strapi-plugin-users-permissions",
   "_phantomChildren": {},
   "_requested": {
@@ -18,10 +18,10 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-alpha.12.5.tgz",
-  "_shasum": "157b18347a6ae1e30e332f4952382205cfadc428",
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-alpha.13.0.1.tgz",
+  "_shasum": "2b941d6115f5b695f31e77f60bacdd003c8503ea",
   "_spec": "strapi-plugin-users-permissions@alpha",
-  "_where": "/Users/stevensanseau/Workspace/dataforgood/api/test",
+  "_where": "/Users/stevensanseau/Workspace/dataforgood/maj",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
@@ -43,7 +43,7 @@
   "deprecated": false,
   "description": "Protect your API with a full-authentication process based on JWT",
   "devDependencies": {
-    "strapi-helper-plugin": "3.0.0-alpha.12.5"
+    "strapi-helper-plugin": "3.0.0-alpha.13.0.1"
   },
   "engines": {
     "node": ">= 9.0.0",
@@ -82,5 +82,5 @@
     "icon": "users",
     "description": "users-permissions.plugin.description"
   },
-  "version": "3.0.0-alpha.12.5"
+  "version": "3.0.0-alpha.13.0.1"
 }

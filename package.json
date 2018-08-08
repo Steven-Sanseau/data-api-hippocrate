@@ -12,18 +12,18 @@
     "postinstall": "node node_modules/strapi/lib/utils/post-install.js"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.12.2",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.8.0"
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-react": "^7.10.0"
   },
   "dependencies": {
     "lodash": "4.x.x",
     "request": "^2.87.0",
-    "strapi": "3.0.0-alpha.12.5",
-    "strapi-mongoose": "3.0.0-alpha.12.5",
-    "strapi-upload-aws-s3": "^3.0.0-alpha.12.5"
+    "strapi": "^3.0.0-alpha.13.0.1",
+    "strapi-hook-mongoose": "3.0.0-alpha.13.0.1",
+    "strapi-upload-aws-s3": "^3.0.0-alpha.13.0.1"
   },
   "author": {
     "name": "stevensanseau",

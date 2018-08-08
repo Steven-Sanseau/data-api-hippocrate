@@ -2,7 +2,7 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-mongoose",
+      "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
         "uri": "${process.env.DATABASE_URI || ''}",
@@ -12,7 +12,8 @@
         "username": "${process.env.DATABASE_USERNAME || ''}",
         "password": "${process.env.DATABASE_PASSWORD || ''}",
         "ssl": "${process.env.DATABASE_SSL || false}",
-        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}"
+        "authenticationDatabase":
+          "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}"
       },
       "options": {}
     }

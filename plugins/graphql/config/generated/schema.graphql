@@ -1,7 +1,12 @@
+"""
+The `DateTime` scalar represents a date and time following the ISO 8601 standard
+"""
+scalar DateTime
+
 type Detail {
   _id: ID!
-  createdAt: String!
-  updatedAt: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
   title: String!
   principle: Principle
   text: String!
@@ -17,8 +22,8 @@ union Morph = Detail | Page | Principle | Step | Supporter | Team | UploadFile |
 
 type Page {
   _id: ID!
-  createdAt: String!
-  updatedAt: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
   title: String!
   content: String
   slug: String!
@@ -26,8 +31,8 @@ type Page {
 
 type Principle {
   _id: ID!
-  createdAt: String!
-  updatedAt: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
   title: String!
   step: Step
   order: Int
@@ -60,8 +65,8 @@ type Query {
 
 type Step {
   _id: ID!
-  createdAt: String!
-  updatedAt: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
   title: String!
   order: Int
   principle(sort: String, limit: Int, start: Int, where: JSON): [Principle]
@@ -70,11 +75,10 @@ type Step {
 """List of all supporters"""
 type Supporter {
   _id: ID!
-  createdAt: String!
-  updatedAt: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
   first_name: String!
   last_name: String!
-  email: String!
   twitter_handle: String
   linkedin_handle: String
   github_handle: String
@@ -84,8 +88,8 @@ type Supporter {
 """Team's project"""
 type Team {
   _id: ID!
-  createdAt: String!
-  updatedAt: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
   name: String
   avatar: String
   position: String
@@ -93,8 +97,8 @@ type Team {
 
 type UploadFile {
   _id: ID!
-  createdAt: String!
-  updatedAt: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
   name: String!
   hash: String!
   ext: String
@@ -111,7 +115,7 @@ type UsersPermissionsPermission {
   controller: String!
   action: String!
   enabled: Boolean!
-  policy: String!
+  policy: String
   role: UsersPermissionsRole
 }
 
